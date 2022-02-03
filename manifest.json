@@ -1,0 +1,58 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.11",
+    "version": "1.0.0",
+    "showLoadingIndicator": true,
+    "isFullScreen": true,
+    "id": "",
+    "packageName": "https://github.com/kjanavi/medicure",
+    "developer": {
+        "name": "VIT",
+        "websiteUrl": "www.vit.ac.in",
+        "privacyUrl": "https://www.teams.com/privacy",
+        "termsOfUseUrl": "www.teams.com/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "VGuideu",
+        "full": "virtual assistant "
+    },
+    "description": {
+        "short": "Health assistant",
+        "full": "When we are prone to certain health concerns, we will experience various symptomatic reactions in our bodies. We might be hesitant to contact a doctor since the concerns appear to be minor, yet there would be a lack of someone knowledgeable about health.\nAs a result, we'll give you advice depending on your symptoms and suggesting you to the near by hospital."
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "conversations",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "about",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "bots": [
+        {
+            "botId": "58d44e07-b788-4218-8c37-26b7dca84d55",
+            "scopes": [
+                "personal",
+                "team"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
